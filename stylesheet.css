@@ -28,6 +28,10 @@
         display: block;
     }
 
+    .header-welcome{
+        font-size: 25px;
+    }
+
     .navigation {
         flex-direction: column;
         align-items: center;
@@ -38,7 +42,7 @@
     }
 
     .content{
-        filter: none;
+        filter: none!important;
     }
 }
 
@@ -200,16 +204,21 @@ section .obrazekreditele img{
     width: 100%;
 }
 
+section .slova-contacts{
+    text-align: center;
+}
+
 section .slova-contacts a {
     color: white;
     text-align: center;
     font-style: italic;
     margin: auto auto 2.248514rem auto;
+    text-decoration: none;
+    transition-duration: 0.2s;
 }
 
 section .slova-contacts a:hover{
-    line-height: 25px;
-    border-radius: 4px;
+    color: #a2a2a2;
 }
 
 section .slova a {
